@@ -7,4 +7,17 @@ RSpec.describe 'Exchanges', type: :request do
       expect(response).to have_http_status(200)
     end
   end
+
+  describe 'GET #convert' do
+    before do
+      @amount = rand(1..9999)
+    end
+ 
+    it 'should return http success' do
+      get '/convert', params: { 
+        source_currency: "USD", target_currency: "BRL", amount: @amount 
+      }
+      expect(response).to have_http_status(200)
+    end
+  end
 end
