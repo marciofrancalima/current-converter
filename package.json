@@ -1,4 +1,5 @@
 {
+  "engines" : { "node" : ">=12" },
   "name": "current_converter",
   "private": true,
   "dependencies": {
