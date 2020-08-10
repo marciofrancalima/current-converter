@@ -1,9 +1,12 @@
 {
-  "engines" : { "node" : ">=12" },
+  "engines": {
+    "node": ">=12"
+  },
   "name": "current_converter",
   "private": true,
   "dependencies": {
     "bootstrap": "^4.5.2",
-    "jquery": "^3.5.1"
+    "jquery": "^3.5.1",
+    "tether": "^1.4.7"
   }
 }
