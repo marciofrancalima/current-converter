@@ -1,24 +1,19 @@
-# README
+# Conversor de Moedas (pt-BR)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Aplicação desenvolvida com Ruby on Rails para praticar os conceitos básicos da stack de tecnologias.
 
-Things you may want to cover:
+![Demo](demo.gif)
 
-* Ruby version
+## Tecnologias
 
-* System dependencies
+- Ruby on Rails
+- Docker
+- Postgres
+- rest-client
+- RSpec
+- Webmock
+- Javascript
 
-* Configuration
+Foi usado a api [Currency Data Feed](https://currencydatafeed.com/) para obter dados reais da cotação. 
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Made with 💜 by Márcio França Lima. [Contact me](https://www.linkedin.com/in/m%C3%A1rcio-fran%C3%A7a-lima-916454187/)
